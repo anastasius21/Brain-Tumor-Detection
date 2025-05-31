@@ -3,7 +3,7 @@
 This deep learning project classifies MRI brain scans into two categories: **Tumor** and **No Tumor**. It uses a Convolutional Neural Network (CNN) built with TensorFlow and Keras.
 
 ## Dataset
-The dataset consists of brain MRI images organized into two folders: `yes/` (with tumor) and `no/` (without tumor). Images were preprocessed using `ImageDataGenerator` with rescaling and validation split.
+The dataset consists of brain MRI images organized into two folders: yes/ (with tumor) and no/ (without tumor). Images were preprocessed using ImageDataGenerator with rescaling and validation split.
 
 ## Model Architecture
 - Multiple Conv2D layers with ReLU activation
